@@ -24,7 +24,6 @@ public class Ball : MonoBehaviour {
     void SwitchPosition(int scenario)
     {
         Debug.Log(bounced);
-        int temp = (int)x;
         switch (scenario)
         {
             case (0):
